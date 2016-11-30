@@ -1,0 +1,47 @@
+
+<div class ="container">
+	<h3>RECENT</h3> 
+	<ul>
+		{% for post in site.posts limit:10 %}
+			<li><a href="{{ site.baseurl }}{{post.url}}">{{ post.title}}</a></li>
+		{% endfor %}
+	</ul>
+</div>
+
+<div class ="container">  
+    {% include search.html %}
+</div> 
+
+<div class ="container">  
+    {% include social_networking.html %}
+</div> 
+
+<div class ="container">
+	<h3>Archives Stub</h3>
+	<ul>
+		<li>Some Archive Entry1</li>
+		<li>Some Archive Entry2</li>
+	</div>  
+
+<div class="container">
+<h3 >Categories</h3>
+<!--TODO : Categories/Tags -->
+<ul>
+  {% if site.categories.first[0] == null %}
+    {% for category in site.categories %}
+     <li><a href="{{ site.baseurl }}/categories.html#{{ category }}-ref">
+     {{ category | join: "/" }} <span>{{ site.categories[category].size }}</span>
+     </a></li>
+    {% endfor %}
+  {% else %}
+    {% for category in site.categories %}
+     <li><a href="{{ site.baseurl }}/categories.html#{{ category[0] }}-ref">
+     {{ category[0] | join: "/" }}</span>
+     </a></li>
+    {% endfor %}
+  {% endif %}
+</ul>
+</div>
+
+
+
