@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "You're Up and Ruining It!"
+title: ""
 published: true
 category : Sawdust
 author : "Jack Flash"
