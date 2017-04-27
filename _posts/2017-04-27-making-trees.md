@@ -1,8 +1,6 @@
 ---
 published: true
 ---
-## A Six Pack and A Need For Trees
-
 ![hero](https://antimagicray.github.io/images/post-img/6packTree/hero.png)
 
 Here's a quick to-do about making trees. This time around, I luckily had one of my favorite supplies on hand... Birminghams Cahaba American Blonde Ale...
