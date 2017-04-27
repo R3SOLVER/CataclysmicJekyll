@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 ---
 ## A Six Pack and A Need For Trees
 
@@ -72,5 +72,3 @@ Finished!
 ![hero](https://antimagicray.github.io/images/post-img/6packTree/hero.png)
 
 That's it. Thank you for reading. There is no more.  I hope you enjoy making the trees while swilling away good beer. -Stuart
-
-
