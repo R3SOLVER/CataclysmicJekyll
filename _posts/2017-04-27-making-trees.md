@@ -1,10 +1,11 @@
 ---
 published: true
 ---
+Here's a quick to-do about making trees. This time around, I luckily had one of my favorite supplies on hand... Birmingham's Cahaba American Blonde Ale...
+Which made me think, what great bases the tops of the six pack would be...
 ![hero](https://antimagicray.github.io/images/post-img/6packTree/hero.png)
 
-Here's a quick to-do about making trees. This time around, I luckily had one of my favorite supplies on hand... Birminghams Cahaba American Blonde Ale...
-Which made me think, what great bases the tops of the six pack would be...
+
 
 I found a few twigs in the yard that had a good true look.  I also had some roots I saved from along time ago. I advise using roots, because their 'armatures' for the branches are more numerous and varied like a real tree's branches.  Also they are little more pliable, less likely to snap off when carting them around.  
 I cut a small hole in the base and hotglued my twig in.
