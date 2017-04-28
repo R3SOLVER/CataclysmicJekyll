@@ -4,10 +4,13 @@
 //
 // IMPORTS
 //
-
+//import bootstrap
+@import "bootstrap";
 @import "reset";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
+
+
 
 /**************/
 /* BASE RULES */
@@ -171,7 +174,9 @@ img {
     width: 960px;
     height: 97px;
   @include mobile {
-    text-align: center;
+    text-align: left;
+	/*position: relative;
+	bottom: -25px;*/
   }
 }
 
@@ -204,12 +209,20 @@ img {
 
 .site-name {
   margin: 0;
+  padding-left: 25px;
+  padding-top: 30px;
   color: $secondaryColor;
   cursor: pointer;
   font-family: $helveticaNeue;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
+  @include mobile {
+    text-align: left;
+	padding-left: 15px;
+	/*position: relative;
+	bottom: -25px;*/
+  }
 }
 
 .site-description {
@@ -220,6 +233,16 @@ img {
   @include mobile {
     margin: 3px 0;
   }
+}
+
+.behold {
+    
+    width: 250px;
+    height: 250px;
+    position:absolute;
+    top: -3px;
+    left: 609px;
+    z-index: 1;
 }
 
 nav {

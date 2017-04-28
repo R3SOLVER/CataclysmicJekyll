@@ -11,7 +11,7 @@ description: Gaming and painting in the eye of the beholder
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 #avatar: https://avatars1.githubusercontent.com/u/1933872?v=3&s=460
 
-#
+#s
 # Flags below are optional
 #
 
@@ -63,6 +63,7 @@ version: v1.1.0
 # Set the Sass partials directory, as we're using @imports
 sass:
   style: :expanded # You might prefer to minify using :compressed
+  sass_dir: _sass
 
 # Use the following plug-ins
 gems:
